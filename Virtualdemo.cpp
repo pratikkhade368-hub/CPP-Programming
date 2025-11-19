@@ -3,13 +3,13 @@ using namespace std;
 
 class Base
 {
-    public:
+    Public:
     int i,j;
 
 };
-class Derived:public Base
+class Derived:Public Base
 {
-    public:
+    Public:
     int x;
 
 };
@@ -19,4 +19,5 @@ int main()
    cout<<sizeof(Derived)<<"\n";  //12
 
     return 0;
+
 }
